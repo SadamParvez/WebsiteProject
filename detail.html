@@ -10,12 +10,14 @@
     <div>
       <!-- header section  -->
       <div>
-        <img
-          src="/assests/images/logo.png"
-          alt="logo"
-          height="200px"
-          width="150px"
-        />
+        <a href="/index.html">
+          <img
+            src="/assests/images/logo.png"
+            alt="logo"
+            height="200px"
+            width="150px"
+          />
+        </a>
         <a href="/login.html">Login</a>
       </div>
 
@@ -26,8 +28,25 @@
           alt="radisson hotel"
         />
         <br />
+        <form action="/payment.html">
+          <label for="ad">Adults:</label>
+          <input type="number" name="adult" id="ad" min="1" /> <br />
 
-        <a href="/payment.html">Book Now</a>
+          <label for="name">Name:</label>
+          <input type="text" name="myname" id="name" required /> <br />
+
+          <label for="fdate">From Date:</label>
+          <input type="date" name="" id="fdate" required /> <br />
+
+          <label for="tdate">To Date:</label>
+          <input type="date" name="" id="tdate" required /> <br />
+
+          <label for="total">Total</label>
+          <input type="text" id="total" name="total" disabled /><br />
+
+          <button>Book now</button>
+        </form>
+
         <h2>Radisson Blu Hotel</h2>
         <p>RATING</p>
         <p>5 Star</p>
@@ -51,7 +70,7 @@
       <!-- Footer section  -->
 
       <div>
-        <a href="/contact.html" target="_blank">Contact Us</a> <br />
+        <a href="/contact.html">Contact Us</a> <br />
         <a href="https://www.facebook.com/"
           ><img
             src="/assests/images/facebook.png"
