@@ -5,13 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100vw;
+      }
+      .apple {
+        height: 100vh;
+        width: 100vw;
+      }
+      header img {
+        height: 60px;
+        width: 60px;
+      }
+      div.img-div img {
+        height: 160px;
+        width: 160px;
+      }
+      footer a img {
+        height: 20px;
+        width: 22px;
+      }
+    </style>
   </head>
   <body>
-
-    <div>
-
+    <div class="apple">
       <!-- header -->
-      <div>
+      <header>
         <img
           src="/assests/images/logo.png"
           alt="logo"
@@ -19,16 +39,16 @@
           width="150px"
         />
         <a href="/login.html">Login</a>
-      </div>
+      </header>
 
       <!-- Content  -->
 
-      <div>
+      <div class="img-div">
         <form action="">
           <label for="city"></label>
-          <input type="text" name="mycity" id="city" placeholder="City">
+          <input type="text" name="mycity" id="city" placeholder="City" />
         </form>
-      
+
         <a href="/list.html">
           <img
             src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
@@ -56,14 +76,13 @@
           width="300px"
         />
         <br />
-
         <a href="index.html">View more >></a>
       </div>
 
-<!-- Footer section  -->
+      <!-- Footer section  -->
 
-      <div>
-        <a href="/contact.html" >Contact Us</a> <br>
+      <footer>
+        <a href="/contact.html">Contact Us</a> <br />
         <a href="https://www.facebook.com/"
           ><img
             src="/assests/images/facebook.png"
@@ -71,7 +90,7 @@
             width="22px"
             alt="facebook logo"
         /></a>
-  
+
         <a href="https://www.instagram.com/accounts/login/"
           ><img
             src="/assests/images/instagram.png"
@@ -79,7 +98,7 @@
             width="22px"
             alt="instagram logo"
         /></a>
-  
+
         <a href="https://twitter.com/LOGIN"
           ><img
             src="/assests/images/twitter.png"
@@ -88,8 +107,7 @@
             alt="twitter logo"
         /></a>
         <p>&#169; 2020 ROOM SEARCH PVT LTD</p>
-      </div>
+      </footer>
     </div>
-    </body>
   </body>
 </html>

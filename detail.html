@@ -5,11 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100vw;
+      }
+      .cat {
+        height: 100vh;
+        width: 100vw;
+      }
+      header img {
+        height: 60px;
+        width: 60px;
+      }
+      .contentsection img {
+        height: 500px;
+        width: 500px;
+      }
+      footer a img {
+        height: 20px;
+        width: 22px;
+      }
+    </style>
   </head>
   <body>
-    <div>
+    <div class="cat">
       <!-- header section  -->
-      <div>
+      <header>
         <a href="/index.html">
           <img
             src="/assests/images/logo.png"
@@ -19,16 +41,16 @@
           />
         </a>
         <a href="/login.html">Login</a>
-      </div>
+      </header>
 
       <!-- content section  -->
-      <div>
+      <div class="contentsection">
         <img
           src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
           alt="radisson hotel"
         />
         <br />
-        <form action="/payment.html">
+        <form action="/payment.html" method="GET">
           <label for="ad">Adults:</label>
           <input type="number" name="adult" id="ad" min="1" /> <br />
 
@@ -69,7 +91,7 @@
 
       <!-- Footer section  -->
 
-      <div>
+      <footer>
         <a href="/contact.html">Contact Us</a> <br />
         <a href="https://www.facebook.com/"
           ><img
@@ -95,7 +117,7 @@
             alt="twitter logo"
         /></a>
         <p>&#169; 2020 ROOM SEARCH PVT LTD</p>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
