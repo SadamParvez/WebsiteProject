@@ -23,6 +23,9 @@ footer a img {
 header,
 footer {
   background-color: rosybrown;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
 }
 .hotelimg {
   background-color: rgb(132, 136, 139);
@@ -37,4 +40,35 @@ footer {
   border: 1px solid black;
   border-radius: 5px;
   padding: 1% 2%;
+}
+footer {
+  padding: 10px;
+  margin-bottom: 0px;
+  position: sticky;
+  bottom: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header a.log {
+  margin-right: 40px;
+  padding-top: 20px;
+  text-decoration: none;
+  color: black;
+}
+.cont {
+  text-decoration: none;
+  color: black;
+}
+.pa {
+  text-decoration: none;
+  color: black;
+}
+.socialmedia {
+  padding-right: 10px;
 }

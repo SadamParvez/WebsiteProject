@@ -5,6 +5,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #e0e0e0;
+  font-family: "Ubuntu", sans-serif;
 }
 .ball {
   height: 100vh;
@@ -31,4 +32,96 @@ footer {
   background-color: rgb(132, 136, 139);
   width: 40%;
   margin: 2%;
+}
+footer {
+  padding: 10px;
+  margin-bottom: 0px;
+  position: sticky;
+  bottom: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  background-color: rosybrown;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+}
+.login {
+  float: right;
+  padding-right: 41px;
+  padding-top: 21px;
+  text-decoration: none;
+  color: black;
+}
+.socialimages {
+  float: right;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+.search {
+  width: 300px;
+  margin: 0px auto;
+  font-size: 10px;
+}
+.cus {
+  text-decoration: none;
+  color: black;
+  margin-top: 1px;
+}
+
+.aclass {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* .aclass {
+  list-style: none;
+  color: black;
+} */
+.aclass a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+#mapview {
+  display: none;
+}
+/* div.hotelimages {
+  display: inline;
+} */
+.img1 a {
+  text-decoration: none;
+  color: black;
+}
+.li1 {
+  margin-right: 2%;
+}
+.li2 {
+  margin-left: 2%;
+}
+.hotelimages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* .here {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+} */
+.here {
+  margin-left: 4%;
+  margin-right: 6%;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+.socialmedia {
+  padding-right: 10px;
 }

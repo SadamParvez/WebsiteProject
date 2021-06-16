@@ -6,6 +6,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #e0e0e0;
+  font-family: "Ubuntu", sans-serif;
 }
 .apple {
   height: 100vh;
@@ -13,6 +14,8 @@ body {
 }
 header {
   background-color: rosybrown;
+  position: sticky;
+  top: 0px;
 }
 header img {
   height: 60px;
@@ -42,4 +45,60 @@ footer {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a {
+  float: right;
+  padding-right: 41px;
+  padding-top: 21px;
+  text-decoration: none;
+  color: black;
+}
+/* .socialmedia {
+  float: right;
+} */
+/* .socialmedia a img {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+} */
+.room {
+  width: 300px;
+  margin: 0px auto;
+  font-size: 10px;
+}
+footer {
+  padding: 10px;
+  margin-bottom: 0px;
+  position: sticky;
+  bottom: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact {
+  text-decoration: none;
+  color: black;
+  margin-top: 1px;
+}
+form input {
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+  width: 40%;
+}
+.viewmore {
+  display: block;
+  width: 100px;
+  margin: 40px auto;
+  text-decoration: none;
+  color: black;
+}
+.socialmedia {
+  padding-right: 10px;
 }

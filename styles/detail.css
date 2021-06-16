@@ -3,6 +3,7 @@ body {
   width: 100vw;
   margin: 0px;
   background-color: #e0e0e0;
+  font-family: "Ubuntu", sans-serif;
 }
 .cat {
   height: 100vh;
@@ -26,4 +27,31 @@ footer a img {
 header,
 footer {
   background-color: rosybrown;
+  position: sticky;
+  top: 0%;
+  bottom: 0px;
+}
+footer {
+  padding: 10px;
+  margin-bottom: 0px;
+  position: sticky;
+  bottom: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header a.login {
+  margin-right: 40px;
+  padding-top: 20px;
+  text-decoration: none;
+  color: black;
+}
+.contact {
+  text-decoration: none;
+  color: black;
 }
