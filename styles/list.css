@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #e0e0e0;
+}
+.ball {
+  height: 100vh;
+  width: 100vw;
+}
+header img {
+  height: 60px;
+  width: 60px;
+}
+div.hotelimages img {
+  height: 150px;
+  width: 150px;
+}
+footer a img {
+  height: 20px;
+  width: 22px;
+}
+header,
+footer {
+  background-color: rosybrown;
+}
+
+.here {
+  background-color: rgb(132, 136, 139);
+  width: 40%;
+  margin: 2%;
+}
