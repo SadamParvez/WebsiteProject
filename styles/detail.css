@@ -55,3 +55,26 @@ header a.login {
   text-decoration: none;
   color: black;
 }
+.picform {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  /* height: 400px; */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+}
+.picform img {
+  height: 350px;
+}
+form button {
+  width: 15%;
+  padding: 9px;
+}
+h1,
+h2,
+h3 {
+  font-family: cursive;
+}

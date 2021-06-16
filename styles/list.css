@@ -16,8 +16,8 @@ header img {
   width: 60px;
 }
 div.hotelimages img {
-  height: 150px;
-  width: 150px;
+  height: 30vh;
+  width: 20vw;
 }
 footer a img {
   height: 20px;
@@ -29,9 +29,10 @@ footer {
 }
 
 .here {
-  background-color: rgb(132, 136, 139);
+  background-color: lightgray;
   width: 40%;
   margin: 2%;
+  height: 40%;
 }
 footer {
   padding: 10px;
@@ -49,9 +50,12 @@ header {
   top: 0px;
   bottom: 0px;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+}
 .login {
-  float: right;
-  padding-right: 41px;
+  margin-right: 2%;
   padding-top: 21px;
   text-decoration: none;
   color: black;
@@ -109,11 +113,11 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* .here {
+.here {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-} */
+}
 .here {
   margin-left: 4%;
   margin-right: 6%;
@@ -123,5 +127,14 @@ footer a {
   color: black;
 }
 .socialmedia {
-  padding-right: 10px;
+  margin-right: 1%;
+}
+.contact {
+  margin-left: 2%;
+}
+.radisson,
+.taj,
+.lalit {
+  margin-left: 2%;
+  margin-top: 2%;
 }

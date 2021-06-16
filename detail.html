@@ -28,29 +28,37 @@
 
       <!-- content section  -->
       <div class="contentsection">
-        <img
-          src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-          alt="radisson hotel"
-        />
-        <br />
-        <form action="/payment.html" method="GET">
-          <label for="ad">Adults:</label>
-          <input type="number" name="adult" id="ad" min="1" /> <br />
 
-          <label for="name">Name:</label>
-          <input type="text" name="myname" id="name" required /> <br />
+        <div class="commondiv">
 
-          <label for="fdate">From Date:</label>
-          <input type="date" name="" id="fdate" required /> <br />
-
-          <label for="tdate">To Date:</label>
-          <input type="date" name="" id="tdate" required /> <br />
-
-          <label for="total">Total</label>
-          <input type="text" id="total" name="total" disabled /><br />
-
-          <button>Book now</button>
-        </form>
+          <div class="imgdiv">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+              alt="radisson hotel"
+            />
+            </div>
+  
+            <div class="formdiv">
+              <form action="/payment.html" method="GET">
+                <label for="ad">Adults:</label>
+                <input type="number" name="adult" id="ad" min="1" /> <br />
+    
+                <label for="name">Name:</label>
+                <input type="text" name="myname" id="name" required /> <br />
+    
+                <label for="fdate">From Date:</label>
+                <input type="date" name="" id="fdate" required /> <br />
+    
+                <label for="tdate">To Date:</label>
+                <input type="date" name="" id="tdate" required /> <br />
+    
+                <label for="total">Total</label>
+                <input type="text" id="total" name="total" disabled /><br />
+                <button>Book now</button>
+              </form>
+            </div>
+          </div>
+        </div>
 
         <h2>Radisson Blu Hotel</h2>
         <p>RATING</p>
